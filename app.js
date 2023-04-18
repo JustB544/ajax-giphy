@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
 });
 
 async function searchGiphy(search) {
-    const results = await axios.get("http://api.giphy.com/v1/gifs/search", { params: { q: search, api_key } });
+    const results = await axios.get("https://api.giphy.com/v1/gifs/search", { params: { q: search, api_key } });
     const giphyImg = results.data.data[0].images.original.url;
     //console.log(results.data.data[0]);
 
