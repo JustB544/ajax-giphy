@@ -1,0 +1,13 @@
+html {
+    background-color: rgb(69, 69, 69);
+}
+
+#inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+#gifs {
+    display: flex;
+    flex-direction: row;
+}
